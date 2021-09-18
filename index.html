@@ -3,14 +3,35 @@
 <head>
     <meta charset="utf8">
     <script src="p5.js"></script>
-    <script src="class.js"></script>
+
+    <script src="Grass.js"></script>
+    <script src="GrassEater.js"></script>
+    <script src="Gishatich.js"></script>
+    <script src="Gishatichx.js"></script>
+    <script src="Purple.js"></script>
     <script src="script.js"></script>
     <style>
-        div{
-            display:inline-block;
+        div {
+            display: inline-block;
         }
 
-         #legend {position: absolute;top: 0;right: 0;width: 800px;} .legend-color {width: 30px;height: 30px;} td {border: 1px solid black; font-size: 14px; padding-left: 5px;}
+        #legend {
+            position: absolute;
+            top: 0;
+            right: 0;
+            width: 800px;
+        }
+
+        .legend-color {
+            width: 30px;
+            height: 30px;
+        }
+
+        td {
+            border: 1px solid black;
+            font-size: 14px;
+            padding-left: 5px;
+        }
     </style>
 </head>
 
@@ -55,7 +76,7 @@
             <td>Խոտերին, մոտակա 8 վանդակներում, շարժվելիս էներգիան ավելանում է 1֊ով</td>
             <td>Բազմանում է մոտակա տարածքներում, երբ էներգիան 10֊ից ավել է</td>
             <td>Սատկում է, երբ էներգիան փոքր է 0֊ից</td>
-        </tr>   
+        </tr>
         <tr>
             <td class="legend-color" style="background-color:red"></td>
             <td>գիշատիչ</td>
@@ -63,7 +84,7 @@
             <td>Խոտակերին, մոտակա 8 վանդակներում, շարժվելիս էներգիան ավելանում է 1֊ով</td>
             <td>Բազմանում է մոտակա տարածքներում, երբ էներգիան 10֊ից ավել է</td>
             <td>Սատկում է, երբ էներգիան փոքր է 0֊ից</td>
-        </tr>   
+        </tr>
         <tr>
             <td class="legend-color" style="background-color:blue"></td>
             <td>գիշատիչիքս</td>
@@ -71,7 +92,7 @@
             <td>գիշատիչին, մոտակա 8 վանդակներում, շարժվելիս էներգիան ավելանում է 1֊ով</td>
             <td>Բազմանում է մոտակա տարածքներում, երբ էներգիան 10֊ից ավել է</td>
             <td>Սատկում է, երբ էներգիան փոքր է 0֊ից</td>
-        </tr>   
+        </tr>
         <tr>
             <td class="legend-color" style="background-color:purple"></td>
             <td>մանուշակ</td>
@@ -79,7 +100,7 @@
             <td>գիշատիչին,գիշատիչիքս,խոտակեր մոտակա 8 վանդակներում, շարժվելիս էներգիան ավելանում է 1֊ով</td>
             <td>Բազմանում է մոտակա տարածքներում, երբ էներգիան 10֊ից ավել է</td>
             <td>Սատկում է, երբ էներգիան փոքր է 0֊ից</td>
-        </tr>   
+        </tr>
     </table>
 </body>
 

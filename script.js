@@ -15,7 +15,7 @@ var matrix = [
 ];
 
 var side = 20;
-var purpleArr=[];
+var purpleArr = [];
 var gishxArr = [];
 var grassArr = [];
 var grasseaterArr = [];
@@ -107,17 +107,17 @@ function draw() {
 
     }
 
-if (grasseaterArr.length == 0) {
-    var d=Math.floor(random(1,12))
-       
+    if (grasseaterArr.length == 0) {
+        var d = Math.floor(random(1, 12))
+
         matrix[d][d] = 2;
         var gr = new GrassEater(5, 5, 2);
         grasseaterArr.push(gr);
 
     }
     if (gishArr.length == 0) {
-        var d=Math.floor(random(1,12))
-        
+        var d = Math.floor(random(1, 12))
+
         matrix[d][d] = 3;
         var gr = new Gishatich(d, d, 2);
         gishArr.push(gr);
